@@ -35,3 +35,5 @@ build/
 ### temp file ###
 mysql/mysql-data
 
+.env
+docker-compose.yml
