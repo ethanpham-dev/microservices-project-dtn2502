@@ -17,7 +17,7 @@ import vti.dtn.auth_service.services.AuthenticationService;
 @Validated
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @RequestMapping(path = "/api/v1/auth")
 public class AuthenticationController {
     private final AuthenticationService authenticationService;
